@@ -26,6 +26,10 @@
     background-color: white;
 }
 
+.home-img{
+    width: 33.3%;
+}
+
 .home-title{
     font-weight: 500;
     letter-spacing: 0.6rem;
