@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Landing Section */
+
+.home{
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-logo{
+    width: 3.5rem;
+}
+
+.bg-light {
+    background-color: white;
+}
+
+.home-title{
+    font-weight: 500;
+    letter-spacing: 0.6rem;
+}
+
+.home-arrow{
+    margin: 1rem 0 0 0;
+    width: 3rem;
+    transition: 1s;
+}
+
+.home-arrow:hover{
+    transform: scale(1.2);
+}
