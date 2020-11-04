@@ -20,6 +20,7 @@
           <a class="nav-item nav-link" href="#about">About</a>
           <a class="nav-item nav-link" href="#team">Our Team</a>
           <a class="nav-item nav-link" href="#phase">Current Phase</a>
+          <a class="nav-item nav-link" href="#testing">User Testing</a>
           <a class="nav-item nav-link" href="#contact">Contact</a>
         </div>
       </div>
@@ -35,14 +36,16 @@
     <img src="./res/images/kinaxis.png" alt="Kinaxis Logo" class="kinaxis-logo" />
     <div class="about-description">
       <h2 class="about-title">About <img src="/res/images/bit.png" class="bit-logo" alt="Bachelor of IT Carleton University logo"/></h2>
-      <p class="about-data">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, vitae est. Soluta quod aspernatur molestias, libero cum ex? Architecto repudiandae quasi rem, error veritatis in quo repellat ratione dolorem similique doloremque voluptatibus velit nostrum eos itaque et optio laboriosam maxime.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iste quae nihil fugit magnam esse nostrum alias fuga iure, deserunt distinctio cupiditate velit accusamus porro sed, magni officia facere nobis error illum dolorem quos vitae!<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam aut, nemo quisquam cumque iste amet.</p>
+      <p class="about-data">Creative Circle from Carleton Universities school of Information Technology is proudly collaborating with Kinaxis to develop a mobile user interface solution for their software RapidResponse. RapidResponse is a supply chain management software developed by Kinaxis and provides companies with a means to manage their supply chains while providing concurrent planning, detailed data visualizations, user collaboration and countless other features. <br>
+      As fouth year students nearing graduation, we at Creative Circle are determined to develop a world class UI solution for a world class company in Kinaxis. 
+      </p>
     </div>
   </section>
 
   <section id="team" class="team">
     <h2 class="team-title">Meet the Team</h2>
       <div class="team-container">
-        <article class="card">
+        <article class="card" id="Deka" onmouseover="displayData(this.id)">
           <header class="card-header-info">
             <p>Kinaxis Project</p>
             <h2>Deka Said</h2>
@@ -53,14 +56,14 @@
             </div>
             <div class="user-info">
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Graphic Design</li>
+                <li>UI Design</li>
+                <li>Research</li>
               </ul>
             </div>
           </div>
         </article>
-        <article class="card">
+        <article class="card" id="Eric" onmouseover="displayData(this.id)">
           <header class="card-header-info">
             <p>Kinaxis Project</p>
             <h2>Eric Moore</h2>
@@ -74,12 +77,12 @@
               <ul>
                 <li>Researcher</li>
                 <li>Web Developer</li>
-                <li>UI/UX Designer</li>
+                <li>UI/UX Design</li>
               </ul>
             </div>
           </div>
         </article>
-        <article class="card">
+        <article class="card" id="Thao" onmouseover="displayData(this.id)">
           <header class="card-header-info">
             <p>Kinaxis Project</p>
             <h2>Thao Nguyen</h2>
@@ -90,14 +93,14 @@
             </div>
             <div class="user-info">
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Graphic Design</li>
+                <li>Researcher</li>
+                <li>UX Design</li>
               </ul>
             </div>
           </div>
         </article>
-        <article class="card">
+        <article class="card" id="Nella" onmouseover="displayData(this.id)">
           <header class="card-header-info">
             <p>Kinaxis Project</p>
             <h2>Nella Dee</h2>
@@ -108,14 +111,14 @@
             </div>
             <div class="user-info">
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Marketing</li>
+                <li>UX/UI Design</li>
+                <li>Audio & Video</li>
               </ul>
             </div>
           </div>
         </article>
-        <article class="card">
+        <article class="card" id="Niki" onmouseover="displayData(this.id)">
           <header class="card-header-info">
             <p>Kinaxis Project</p>
             <h2>Niki Roy</h2>
@@ -126,14 +129,14 @@
             </div>
             <div class="user-info">
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Marketing</li>
+                <li>UI Design</li>
+                <li>Audio & Video</li>
               </ul>
             </div>
           </div>
         </article>
-        <article class="card">
+        <article class="card" id="Radhika" onmouseover="displayData(this.id)">
           <header class="card-header-info">
             <p>Kinaxis Project</p>
             <h2>Radhika Mehta</h2>
@@ -144,16 +147,27 @@
             </div>
             <div class="user-info">
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Project Manager</li>
+                <li>UI Design</li>
+                <li>Graphic Design</li>
               </ul>
             </div>
           </div>
         </article>
       </div>
+      <div class="user-info-section">
+        <h3 class="user-name"></h3>
+        <div class="user-bio"></div>
+      </div>
     </section>
 
+    <section id="phase" class="phase">
+      <div class="phase-content">
+        
+      </div>
+    </section>
+
+  <script src="app.js"></script>  
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
