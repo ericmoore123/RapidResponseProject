@@ -1,6 +1,7 @@
+let userInfo = document.querySelector('.user-bio');
+let userName = document.querySelector('.user-name');
+
 const displayData = (member) => {
-    let userInfo = document.querySelector('.user-bio');
-    let userName = document.querySelector('.user-name');
 
     const userData = [
         "I’m excited to learn and experience designing a mobile prototype for the Kinaxis RapidResponse software. I’m confident that we have a dynamic and innovative team that will make this prototype unique.",
@@ -27,4 +28,9 @@ const displayData = (member) => {
         };
     };
 
+};
+
+const hideContent = () => {
+    userInfo.innerHTML = null;
+    userName.innerHTML = null;
 };
