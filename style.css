@@ -96,10 +96,6 @@
     justify-content: center;
 }
 
-.team-title {
-    
-}
-
 .team-container{
     display: flex;
     justify-content: column;
@@ -256,7 +252,6 @@
     border-radius: 1rem;
   }
 
-  
   /* User Testing Section */
   .testing{
     height: 100vh;
@@ -279,3 +274,5 @@
     border: none;
   }
 
+
+/* Footer */
