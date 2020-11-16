@@ -177,16 +177,20 @@
       <div class="downloads-section">
         <h2>Downloads</h2>
         <p>Here you can download audio recordings of a congnitive walkthrough of our UI. <br> 
-        <br><i style="color:rgb(207, 24, 24);">Download button will be enabled when user testing has opened.</i>
+        <!-- <br><i style="color:rgb(207, 24, 24);">Download button will be enabled when user testing has opened.</i> -->
         </p>
-        <button onclick="downloadFiles()" disabled>Download Files</button>
+        <a class="btn btn-light" download href="./res/Prototype Resources.zip">Prototype Downloads</a>
       </div>
       <div class="submission-section">
         <h2>Submission Folder</h2>
-        <p>Please submit your testing results to this folder on google drive. <br> 
-          <br><i style="color:rgb(207, 24, 24);">Submission button will be enabled when user testing has opened.</i></p>
-        <button onclick="goToFolder()" disabled>Submission Folder</button>
-      </div>
+        <p>Please submit your testing recordings to this folder on google drive. <br> 
+          <!-- <br><i style="color:rgb(207, 24, 24);">Submission button will be enabled when user testing has opened.</i></p> -->
+        </p>
+        <div class="submission-buttons">
+          <a class="btn btn-light" href="https://drive.google.com/drive/folders/1MJFfT6gsCHSvltdfkXtn7T6nZvZMxrVh">Submission Folder</a>
+          <a class="btn btn-light" href="https://docs.google.com/forms/d/1MU5QsHWmI7aqMNlcm8p4UEr80qlcsPr2Ud-FdE5PoLs/edit">Survey</a>
+        </div>
+        </div>
     </section>
 
   <script src="app.js"></script>  

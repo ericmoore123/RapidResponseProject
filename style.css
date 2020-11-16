@@ -268,11 +268,10 @@
     box-shadow: 0 0.2rem 0.5rem grey;
   }
 
-  button{
-    background: rgb(144, 144, 144);
-    padding: 10px 20px;
-    border: none;
+  .submission-buttons{
+    display: flex;
+    justify-content: space-between;
+    
   }
-
 
 /* Footer */
