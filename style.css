@@ -271,7 +271,6 @@
   .submission-buttons{
     display: flex;
     justify-content: space-between;
-    
   }
 
 /* Footer */
@@ -284,5 +283,4 @@
 
 .social-links{
   color: black;
-  font-size;
 }
