@@ -275,3 +275,14 @@
   }
 
 /* Footer */
+.social-links-container{
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.social-links{
+  color: black;
+  font-size;
+}
