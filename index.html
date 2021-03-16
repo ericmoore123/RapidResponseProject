@@ -20,8 +20,8 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="#home">Home</a>
           <a class="nav-item nav-link" href="#about">About</a>
-          <!-- <a class="nav-item nav-link" href="#trailer">Trailer</a>
-          <a class="nav-item nav-link" href="#poster">Poster</a> -->
+          <a class="nav-item nav-link" href="#poster">Poster</a>
+          <a class="nav-item nav-link" href="#trailer">Trailer</a>
           <a class="nav-item nav-link" href="#team">Our Team</a>
           <a class="nav-item nav-link" href="#phase">Current Phase</a>
           <a class="nav-item nav-link" href="#testing">User Testing</a>       
@@ -46,12 +46,16 @@
     </div>
   </section>
 
-  <section class="trailer" id="trailer">
-    <iframe src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" width="50%" height="60%"></iframe>
+  <section class="poster" id="poster">
+    <img src="./res/PromoMaterials/poster.jpg" alt="Official poster of the CreativeCircle RapidResponse Project" loading="lazy">
   </section>
 
-  <section class="poster" id="poster">
-    <img src="" alt="">
+  <section class="trailer" id="trailer">
+    <video width="60%" controls title="Official Trailer for the CreativeCircle RapidResponse Project.">
+      <source src="./res/PromoMaterials/CreativeCircle_PromoTrailer.mp4" type="video/mp4">
+    </video>
+
+    <!-- <iframe src="./res/PromoMaterials/CreativeCircle_PromoTrailer.mp4" frameborder="0" width="50%" height="60%"></iframe> -->
   </section>
 
   <section id="team" class="team">
@@ -203,7 +207,7 @@
         </div>
     </section>
 
-    <div class="card-footer text-muted fixed-bottom">
+    <div class="card-footer text-muted fixed-bottom" style="background-color: rgb(255, 255, 255);">
       <div class="social-links-container">
         <a class="social-links" href="https://www.instagram.com/creativecircleimd/" target="_blank" title="Instagram social link"><i class="fa-2x fab fa-instagram" ></i></a>
         <a class="social-links" href="https://m.facebook.com/pg/creativecircleimd/posts/?ref=page_internal&mt_nav=0" target="_blank" title="Facebook social link"><i class="fa-2x fab fa-facebook-square" ></i></a>

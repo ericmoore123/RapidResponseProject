@@ -95,6 +95,10 @@
     cursor: default;
 }
 
+.trailer video{
+  box-shadow: 0 0.2rem 0.5rem grey;
+}
+
 /* Poster Section */
 .poster{
     width: 100%;
@@ -103,6 +107,11 @@
     justify-content: center;
     align-items: center;
     cursor: default;
+}
+
+.poster img{
+  width: 60%;
+  box-shadow: 0 0.2rem 0.5rem grey;
 }
 
 /* Team Section */
