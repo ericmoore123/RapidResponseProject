@@ -91,6 +91,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     cursor: default;
 }
@@ -106,6 +107,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     cursor: default;
 }
 
@@ -267,7 +269,7 @@
     box-shadow: 0 0.2rem 0.5rem grey;
   }
 
-  .phase.info-cotainer{
+  .phase-info-cotainer{
     display: flex;
     flex-direction: column;
   }
@@ -302,6 +304,29 @@
     justify-content: space-between;
   }
 
+  /* Videos Section */
+  .videos{
+    cursor: default;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20rem
+  }
+
+  .video-container{
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .video{
+    border: none;
+    border-radius: 0.2rem;
+  }
+
+  .video-item{
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+
 /* Footer */
 .social-links-container{
   display: flex;
@@ -312,4 +337,12 @@
 
 .social-links{
   color: black;
+}
+
+.title{
+  margin: 2rem;
+}
+
+.align-center{
+  text-align: center;
 }
