@@ -249,7 +249,7 @@
     height: 100%;
   }
 
-  /* Current Phase Section */
+/* Current Phase Section */
   .phase{
     height: 100vh;
     width: 100%;
@@ -304,7 +304,7 @@
     justify-content: space-between;
   }
 
-  /* Videos Section */
+/* Videos Section */
   .videos{
     cursor: default;
     width: 100%;
@@ -323,9 +323,8 @@
   }
 
   .video-item{
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 2rem 0 0.5rem 0;
   }
-
 
 /* Footer */
 .social-links-container{
